@@ -1,0 +1,14 @@
+.cookie{
+position: fixed;
+bottom: -100%;
+left:0;
+right:0;
+background: lightgray;
+color: white;
+padding: 0 32px;
+transition: 400ms;
+box-shadow: 0 -2px 16px rgba(rgba(57, 54, 64, 0.822), green, blue, alpha);
+}
+.cookie.active{
+bottom: 0;
+}
